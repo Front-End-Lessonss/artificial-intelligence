@@ -72,6 +72,52 @@ font-size:18px;
     padding:50px 130px;
 }
 
+/* Application section design */
+
+ div.apply{
+    padding: 60px 130px;
+    display: flex;
+    align-items: center;
+}
+.apply-right h1{
+    color:#fff;
+    font-size:40px;
+    margin-bottom:30px
+}
+.apply-right p{
+    color:#fff;
+    margin-bottom:30px;
+}
+
+/* cards section */
+
+.kards .kard{
+    text-align: center;
+    color:#fff;
+    /* padding:10 80; */
+    width:250px;
+    background-color: rgb(8, 8, 31);
+    margin-right:50px
+}
+.kards .kard h3{
+    margin:12px 0;
+}
+
+/* feedback section design */
+
+.feedback{
+    padding:160px 130px;
+    color:#fff;
+    display:flex;
+    align-items: center;
+}
+.feedback h1{
+    font-size:40px
+}
+.feedback p{
+    font-weight:600;
+}
+
 
 
 
@@ -111,6 +157,14 @@ font-size:18px;
     .companies .company{
         margin-bottom:50px
     }
+    div.apply .apply-right{
+        margin-top:65px;
+        text-align: center;
+    }
+    .feedback-left{
+        text-align: center;
+        margin-bottom:50px
+    }
 }
 @media(max-width:985px){
     .links, .sign-in{
@@ -120,3 +174,4 @@ font-size:18px;
         display: block;
     }
 }
+
